@@ -1,16 +1,30 @@
 # Crie uma lista com os números de 1 a 10 e use um loop para 
 # imprimir cada número elevado ao quadrado.
-lista: list = []
-for i in range(1, 11):
-    lista.append(i)
-for j in lista:
-    print(j ** 2)
+# lista: list = []
+# for i in range(1, 11):
+#     lista.append(i)
+# for j in lista:
+#     print(j ** 2)
 
 # Dada a lista ["Python", "Java", "C++", "JavaScript"], 
 # remova o item "C++" e adicione "Ruby".
+# lista = ["Python", "Java", "C++", "JavaScript"]
+# nova_lista = []
+# for i in lista:
+#     if i == "C++":
+#         nova_lista.append("Ruby")
+#     else:
+#         nova_lista.append(i)
+# print(nova_lista)
+
+
 
 # Crie um dicionário para armazenar informações de um livro, 
 # incluindo título, autor e ano de publicação. Imprima cada informação.
+dicionario_livros = {}
+
+
+
 
 # Escreva um programa que conta o número de ocorrências de cada caractere 
 # em uma string usando um dicionário.
