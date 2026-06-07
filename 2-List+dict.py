@@ -21,13 +21,31 @@
 
 # Crie um dicionário para armazenar informações de um livro, 
 # incluindo título, autor e ano de publicação. Imprima cada informação.
-dicionario_livros = {}
+dicionario_livros = {"Titulo": "Game of Thrones", "Autor": "George R.R. Martin", "Ano": "06/08/1996" }
+# for i in dicionario_livros.values():
+#     print(i)
 
 
 
 
 # Escreva um programa que conta o número de ocorrências de cada caractere 
 # em uma string usando um dicionário.
+# palavra = input("Digite sua palavra: ").strip().lower()
+# contador_caractere = {}
+# for letra in palavra:
+#     if letra not in contador_caractere:
+#         contador_caractere[letra] = 1
+#     else:
+#         contador_caractere[letra] += 1
+# print(contador_caractere)
+
 
 # Dada a lista ["maçã", "banana", "cereja"] e o dicionário 
 # {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
+
+lista_compras = ["maçã", "banana", "cereja"]
+precos = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
+preco_carrinho = 0.0
+for i in lista_compras:
+    preco_carrinho += precos[i]
+print(preco_carrinho)
