@@ -7,7 +7,7 @@
 # Dada a lista de emails abaixo, crie uma nova lista que contenha
 # apenas os emails únicos (sem repetição).
 #
-emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
+# emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
 # emails_unicos = []
 # for email in emails:
 #     if email not in emails_unicos:
