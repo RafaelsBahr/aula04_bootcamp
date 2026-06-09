@@ -21,7 +21,7 @@
 # for primo, ou False caso contrário.
 # Lembre-se: um número primo é divisível apenas por 1 e por ele mesmo.
 # Teste com os valores: 2, 7, 10, 13, 1
-numero = [2, 7, 10, 13, 1]
+# numero = [2, 7, 10, 13, 1]
 
 # def teste_primo(n: int):
 #     eh_primo = True
